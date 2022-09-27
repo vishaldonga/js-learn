@@ -29,6 +29,15 @@ const sum22 = (firstNum, secondNum) => firstNum + secondNum;
 
 console.log(sum2(22,3)) //25
 
+//if we have single variable in param or no varible then ()//parenthesis not required
+const square = (x) => x * x; //oneliner
+const sq = (number) => {
+    return number * number;
+}
+const sqr = num => num * num;
+const sqr1 = _ => 2 + 3; //Not recommeded
+
+console.log(square(6)) //36
 
 
 
