@@ -3,6 +3,8 @@
 //Sign : ? :
 //Syntax: (condition) ? true will execute : false will 
 
+import { getMonth, months } from "./cleanCode";
+
 //BAsic if-else
 if (5 === 5) { // if condition
     console.log("true confition")
@@ -24,4 +26,4 @@ if (5 === 6) {
 //New syntax
 5 === 6 ? console.log("5==6 confition") : 5 === 5 ? console.log("5==5 confition") : console.log("else confition")
 
-
+const month = months.APRIL;

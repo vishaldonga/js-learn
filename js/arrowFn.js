@@ -41,6 +41,16 @@ console.log(square(6)) //36
 
 
 
+const var1 = prompt("enter your age"); //User Input
+
+if (var1 > 25) {
+    console.log("You are > 25")
+} else {
+    console.log("You are  < 25")
+}
+
+
+
 
 
 
